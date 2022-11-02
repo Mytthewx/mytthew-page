@@ -4,11 +4,10 @@
 	--text-color: #c9c7c7;
 }
 
+html,
 body {
-	min-height: 100vh;
 	margin: 5px 0;
 	scroll-behavior: smooth;
-	overflow: hidden;
 	background: var(--bg-color);
 	color: var(--text-color);
 	font-family: 'IBM Plex Sans', monospace;
