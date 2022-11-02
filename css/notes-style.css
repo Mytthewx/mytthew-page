@@ -6,7 +6,7 @@
 
 body {
 	min-height: 100vh;
-	margin: 20px 0;
+	margin: 5px 0;
 	scroll-behavior: smooth;
 	overflow: hidden;
 	background: var(--bg-color);
@@ -27,6 +27,15 @@ body {
 	align-items: center;
 }
 
+.welcome-info p {
+	margin-bottom: 12px;
+}
+
+.welcome-info a {
+	margin: 0;
+	padding: 0;
+}
+
 .coffee {
 	margin-top: 0;
 	cursor: pointer;
@@ -41,10 +50,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-}
-
-section {
-	padding: 20px 0;
 }
 
 span {
