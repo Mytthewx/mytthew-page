@@ -1,12 +1,12 @@
 @font-face {
 	font-family: brushFont;
-	src: url('/assets/butterpineapple-webfont.woff2') format('woff2');
+	src: url('../assets/butterpineapple-webfont.woff2') format('woff2');
 	font-weight: 600;
 }
 
 @font-face {
 	font-family: codeFont;
-	src: url('/assets/helveticanowdisplay-extrabold-webfont.woff2') format('woff2');
+	src: url('../assets/helveticanowdisplay-extrabold-webfont.woff2') format('woff2');
 }
 
 :root {
