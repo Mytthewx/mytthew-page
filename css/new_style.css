@@ -1,0 +1,151 @@
+@font-face {
+	font-family: brushFont;
+	src: url(/assets/ButterPineapple.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: codeFont;
+	src: url(/assets/HelveticaNowDisplay-ExtraBold.ttf);
+}
+
+:root {
+	--bg-color: #202227;
+	--green: #2bbc8a;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	position: relative;
+	background-color: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	align-self: flex-start;
+	position: absolute;
+	top: 10px;
+	margin-left: 15px;
+	font-size: 1.5em;
+	color: white;
+	font-family: codeFont;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	position: relative;
+}
+
+.container h1 {
+	padding: 10px;
+	font-family: brushFont;
+	color: whitesmoke;
+	font-size: 8em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p {
+	font-family: codeFont;
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+
+.under-title {
+	align-self: flex-end;
+	justify-self: flex-end;
+	animation-delay: 1.2s;
+	z-index: 1;
+	position: relative;
+}
+
+.under-title p {
+	transform: rotate(-10deg);
+}
+
+.description {
+	align-self: center;
+	animation-delay: 1.8s;
+}
+
+.description p {
+	font-size: 1.2em;
+}
+
+.green {
+	display: inline-block;
+	color: var(--green);
+	opacity: 1;
+}
+
+.container .green {
+	animation-delay: 0.65s;
+}
+
+.blink {
+	animation: blink 1.5s steps(2) infinite;
+}
+
+.social {
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+}
+
+.social i {
+	transition: 0.4s color;
+	margin: 0 20px;
+	font-size: 2em;
+}
+
+.social i:hover {
+	color: var(--green);
+	cursor: pointer;
+}
+
+.fa-linkedin-in {
+	animation-delay: 2.4s;
+}
+
+.fa-github {
+	animation-delay: 2.6s;
+}
+
+.fa-discord {
+	animation-delay: 2.8s;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}
