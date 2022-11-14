@@ -1,12 +1,17 @@
 @font-face {
 	font-family: brushFont;
-	src: url('../../assets/butterpineapple-webfont.woff2') format('woff2');
-	font-weight: 600;
+	src: url('../../assets/butterpineapple-webfont.woff2') format('woff2'),
+		url('../../assets/butterpineapple-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: codeFont;
-	src: url('../assets/helveticanowdisplay-extrabold-webfont.woff2') format('woff2');
+	src: url('../../assets/helveticanowdisplay-extrabold-webfont.woff2') format('woff2'),
+		url('../../assets/helveticanowdisplay-extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 :root {
